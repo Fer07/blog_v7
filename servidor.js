@@ -105,7 +105,7 @@ io.sockets.on("connection", function(socket){
 		var usuario = sanitizer.escape(datosCliente.usuario);
 		
 		//console.log("usuario:" + datosCliente.usuario + ", mensaje:" + datosCliente.mensaje);
-		
+		//cambio de pequeña modificacion
 		//RENVIAMOS DATOS A TODOS LOS CLIENTES
 		io.sockets.emit("mensaje-al-cliente",{
 			mensaje:mensaje,
